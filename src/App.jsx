@@ -22,7 +22,7 @@ export default function App() {
     // Lista de móviles autorizados (añade aquí más userAgents únicos)
     const ownerDevices = [
       "Android 10; K", // tu móvil Android
-      "iPhone OS 17_5" // ejemplo de iPhone
+      "iPhone OS 18_6_2" // ejemplo de iPhone
     ];
 
     if (ownerDevices.some(sig => ua.includes(sig))) {
